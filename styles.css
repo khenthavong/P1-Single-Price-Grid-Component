@@ -1,0 +1,138 @@
+/* ======================
+=========================
+AUTHOR/AUTEUR:
+    EDDY KHENTHAVONG
+=========================
+
+        TABLE OF CONTENTS
+
+        - GENERAL
+        - white section settings
+        - green class settings
+        - dark-green id settings
+        - light-green id settings
+
+=========================
+=======================*/
+
+@font-face {
+  font-family: "karla";
+  src: url("police/Karla-Bold.ttf"), url("police/Karla-BoldItalic.ttf"),
+    url("police/Karla-Italic.ttf"), url("police/Karla-Regular.ttf");
+}
+
+/* color template
+cyan hsl(179, 62%, 43%)
+bright yellow hsl(71, 73%, 54%)
+light gray hsl(204, 43%, 93%)
+grayish blue hsl(218, 22%, 67%)
+*/
+
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "karla", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: hsl(204, 43%, 93%);
+  margin: 4em;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 700px;
+}
+
+/* white section settings */
+
+#white {
+  padding: 2.2em;
+  background-color: white;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+#white h1 {
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 0.5em;
+}
+
+#white h2 {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 0.5em;
+}
+
+#white p {
+  color: hsl(218, 22%, 67%);
+}
+
+/* green class settings */
+
+.green {
+  color: hsl(204, 43%, 93%);
+  display: flex;
+}
+
+/* dark-green id settings */
+
+#dark-green {
+  background-color: hsl(179, 62%, 43%);
+  padding: 2.2em;
+  border-bottom-left-radius: 0.5em;
+  flex: 1;
+}
+
+#dark-green h2 {
+  padding-bottom: 0.7em;
+}
+
+#dark-green p {
+  padding-bottom: 10px;
+}
+
+#month {
+  color: hsl(0, 0%, 81%);
+  padding-left: 15px;
+  position: relative;
+  bottom: 5px;
+}
+
+#dollar {
+  font-size: 2em;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  color: hsl(204, 43%, 93%);
+  font-weight: bold;
+  padding: 12px 7.5em;
+  border-radius: 4px;
+  margin: 1em 0 0.2em;
+  box-shadow: 2px 2px 5px hsl(179, 81%, 25%);
+}
+
+button:hover {
+  background-color: hsl(71, 63%, 48%);
+  color: rgb(212, 211, 211);
+}
+
+/* light-green id settings */
+
+#light-green {
+  background-color: hsl(179, 80%, 43%);
+  padding: 2.2em;
+  border-bottom-right-radius: 0.5em;
+  flex: 1;
+}
+
+#light-green h2 {
+  padding-bottom: 1em;
+}
+
+#light-green p {
+  color: hsl(0, 0%, 81%);
+}

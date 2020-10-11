@@ -1,0 +1,17 @@
+/* ======================
+=========================
+AUTHOR/AUTEUR:
+    EDDY KHENTHAVONG
+=========================
+
+    CONTENTS 
+    - @media screen and (max-device-width: 375px)
+
+=========================
+=======================*/
+
+@media screen and (max-device-width: 375px) {
+  .green {
+    flex-wrap: wrap;
+  }
+}
